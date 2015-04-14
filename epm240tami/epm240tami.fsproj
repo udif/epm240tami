@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project xsi:noNamespaceSchemaLocation="Project.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Version current="1"/>
+	<Format>Project</Format>
+	<Header>
+		<Program name="TopoR" version="6.1"/>
+		<GUID>{645FC707-9A6C-4030-88D7-5CB51916C818}</GUID>
+		<Annotation>Project file</Annotation>
+	</Header>
+	<Document>
+		<LocalLibrary />
+		<Pcb>
+			<File path=".\epm240tami.fsx" Folder="-1" isopened="0"/>
+		</Pcb>
+		<Import>
+			<Specctra>
+			<Path name="C:\Users\Udi Finkelstein\Ubuntu One\KiCad\epm240tami\epm240tami.dsn"/>
+			</Specctra>
+		</Import>
+		<Export path="C:\Users\Udi Finkelstein\Ubuntu One\KiCad\epm240tami\"/>
+		<ARouteSessions>
+			<Session name="epm240tami" date="2015-04-13 01:25:04" path=".\autoroute_epm240tami_150413012504\">
+			<File path=".\autoroute_epm240tami_150413012504\epm240tami_2282-21s.fsb" Folder="-1" isopened="0"/>
+			<File path=".\autoroute_epm240tami_150413012504\epm240tami_2445-19s.fsb" Folder="-1" isopened="0"/>
+			</Session>
+		</ARouteSessions>
+	</Document>
+</Project>
