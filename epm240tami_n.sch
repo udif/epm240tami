@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:ab2_power
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,7 +32,8 @@ LIBS:valves
 LIBS:altera
 LIBS:res
 LIBS:oscillator-cmos-out-4
-LIBS:epm240tami-cache
+LIBS:ab2_power
+LIBS:epm240tami_n-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -505,23 +505,23 @@ F 3 "" H 8350 3850 60  0000 C CNN
 	1    8350 4750
 	1    0    0    -1  
 $EndComp
-Text Label 7750 5800 0    60   ~ 0
+Text Label 8650 5800 0    60   ~ 0
 GND
-Text Label 8700 5800 0    60   ~ 0
+Text Label 7800 5800 0    60   ~ 0
 GND
 Text Label 9300 5800 0    60   ~ 0
 GND
 Text Label 10200 5800 0    60   ~ 0
 GND
-Text Label 9300 3700 0    60   ~ 0
+Text Label 10200 3700 0    60   ~ 0
 GND
 Text Label 7800 3700 0    60   ~ 0
 GND
 Text Label 8700 3700 0    60   ~ 0
 +3V3
-Text Label 10200 3700 0    60   ~ 0
+Text Label 9300 3700 0    60   ~ 0
 +3V3
-Text Label 7800 4700 0    60   ~ 0
+Text Label 8700 4700 0    60   ~ 0
 IO15
 Text Label 7800 4600 0    60   ~ 0
 IO17
@@ -529,7 +529,7 @@ Text Label 7800 4500 0    60   ~ 0
 IO19
 Text Label 7800 4400 0    60   ~ 0
 IO21
-Text Label 8700 4700 0    60   ~ 0
+Text Label 7800 4700 0    60   ~ 0
 IO14
 Text Label 8700 4600 0    60   ~ 0
 IO16
@@ -537,29 +537,29 @@ Text Label 8700 4500 0    60   ~ 0
 IO18
 Text Label 8700 4400 0    60   ~ 0
 IO20
-Text Label 8700 5100 0    60   ~ 0
-IO2
-Text Label 8700 5000 0    60   ~ 0
-IO4
-Text Label 8700 4900 0    60   ~ 0
-IO6
-Text Label 8700 4800 0    60   ~ 0
-IO8
-Text Label 7800 5200 0    60   ~ 0
-IO1
 Text Label 7800 5100 0    60   ~ 0
-IO3
+IO2
 Text Label 7800 5000 0    60   ~ 0
-IO5
+IO4
 Text Label 7800 4900 0    60   ~ 0
-IO7
+IO6
 Text Label 7800 4800 0    60   ~ 0
+IO8
+Text Label 8700 5200 0    60   ~ 0
+IO1
+Text Label 8700 5100 0    60   ~ 0
+IO3
+Text Label 8700 5000 0    60   ~ 0
+IO5
+Text Label 8700 4900 0    60   ~ 0
+IO7
+Text Label 8700 4800 0    60   ~ 0
 IO12
-Text Label 7800 5500 0    60   ~ 0
+Text Label 8700 5500 0    60   ~ 0
 IO95
-Text Label 7800 5400 0    60   ~ 0
+Text Label 8700 5400 0    60   ~ 0
 IO97
-Text Label 7800 5300 0    60   ~ 0
+Text Label 8700 5300 0    60   ~ 0
 IO99
 Text Label 10200 5500 0    60   ~ 0
 IO83
@@ -567,9 +567,9 @@ Text Label 10200 5600 0    60   ~ 0
 IO85
 Text Label 10200 5700 0    60   ~ 0
 IO87
-Text Label 7800 5700 0    60   ~ 0
+Text Label 8700 5700 0    60   ~ 0
 IO89
-Text Label 7800 5600 0    60   ~ 0
+Text Label 8700 5600 0    60   ~ 0
 IO91
 Text Label 10200 5200 0    60   ~ 0
 IO75
@@ -589,17 +589,17 @@ Text Label 9300 5600 0    60   ~ 0
 IO84
 Text Label 9300 5700 0    60   ~ 0
 IO86
-Text Label 8700 5700 0    60   ~ 0
+Text Label 7800 5700 0    60   ~ 0
 IO88
-Text Label 8700 5600 0    60   ~ 0
+Text Label 7800 5600 0    60   ~ 0
 IO90
-Text Label 8700 5500 0    60   ~ 0
+Text Label 7800 5500 0    60   ~ 0
 IO92
-Text Label 8700 5400 0    60   ~ 0
+Text Label 7800 5400 0    60   ~ 0
 IO96
-Text Label 8700 5300 0    60   ~ 0
+Text Label 7800 5300 0    60   ~ 0
 IO98
-Text Label 8700 5200 0    60   ~ 0
+Text Label 7800 5200 0    60   ~ 0
 IO100
 Text Label 7800 4300 0    60   ~ 0
 IO27
@@ -613,21 +613,21 @@ Text Label 7800 3900 0    60   ~ 0
 IO37
 Text Label 7800 3800 0    60   ~ 0
 IO39
-Text Label 10200 3800 0    60   ~ 0
+Text Label 9300 3800 0    60   ~ 0
 IO41
-Text Label 10200 3900 0    60   ~ 0
+Text Label 9300 3900 0    60   ~ 0
 IO43
-Text Label 10200 4000 0    60   ~ 0
+Text Label 9300 4000 0    60   ~ 0
 IO47
-Text Label 10200 4100 0    60   ~ 0
+Text Label 9300 4100 0    60   ~ 0
 IO49
-Text Label 10200 4200 0    60   ~ 0
+Text Label 9300 4200 0    60   ~ 0
 IO51
-Text Label 10200 4300 0    60   ~ 0
+Text Label 9300 4300 0    60   ~ 0
 IO53
-Text Label 10200 4400 0    60   ~ 0
+Text Label 9300 4400 0    60   ~ 0
 IO55
-Text Label 10200 4500 0    60   ~ 0
+Text Label 9300 4500 0    60   ~ 0
 IO57
 Text Label 10200 4600 0    60   ~ 0
 IO61
@@ -653,21 +653,21 @@ Text Label 8700 3900 0    60   ~ 0
 IO36
 Text Label 8700 3800 0    60   ~ 0
 IO38
-Text Label 9300 3800 0    60   ~ 0
+Text Label 10200 3800 0    60   ~ 0
 IO40
-Text Label 9300 3900 0    60   ~ 0
+Text Label 10200 3900 0    60   ~ 0
 IO42
-Text Label 9300 4000 0    60   ~ 0
+Text Label 10200 4000 0    60   ~ 0
 IO44
-Text Label 9300 4100 0    60   ~ 0
+Text Label 10200 4100 0    60   ~ 0
 IO48
-Text Label 9300 4200 0    60   ~ 0
+Text Label 10200 4200 0    60   ~ 0
 IO50
-Text Label 9300 4300 0    60   ~ 0
+Text Label 10200 4300 0    60   ~ 0
 IO52
-Text Label 9300 4400 0    60   ~ 0
+Text Label 10200 4400 0    60   ~ 0
 IO54
-Text Label 9300 4500 0    60   ~ 0
+Text Label 10200 4500 0    60   ~ 0
 IO56
 Text Label 9300 4600 0    60   ~ 0
 IO58
@@ -725,9 +725,9 @@ F 3 "" H 1250 2300 60  0000 C CNN
 	1    1250 2300
 	1    0    0    1   
 $EndComp
-Text Label 5400 3400 0    60   ~ 0
+Text Label 5450 5800 0    60   ~ 0
 DI
-Text Label 5400 3500 0    60   ~ 0
+Text Label 5450 5900 0    60   ~ 0
 DO
 Text Label 1150 2800 0    60   ~ 0
 DM
@@ -787,7 +787,7 @@ U 1 1 5523AE13
 P 6400 4600
 F 0 "X1" H 6100 4950 60  0000 C CNN
 F 1 "50MHz" H 5950 4850 60  0000 C CNN
-F 2 "Oscillator-Modules:OSCILLATOR_KXO-200" H 6400 4600 60  0001 C CNN
+F 2 "Crystals_Oscillators_SMD:crystal_HXO-3" H 6400 4600 60  0001 C CNN
 F 3 "" H 6400 4600 60  0000 C CNN
 	1    6400 4600
 	1    0    0    -1  
@@ -1066,9 +1066,9 @@ Wire Wire Line
 Wire Wire Line
 	4950 3300 5250 3300
 Wire Wire Line
-	4950 3400 5700 3400
+	4950 3400 5250 3400
 Wire Wire Line
-	4950 3500 5700 3500
+	4950 3500 5250 3500
 Wire Wire Line
 	4950 3600 5700 3600
 Wire Wire Line
@@ -1114,9 +1114,9 @@ Wire Wire Line
 Wire Wire Line
 	4950 5700 5250 5700
 Wire Wire Line
-	4950 5800 5250 5800
+	4950 5800 5600 5800
 Wire Wire Line
-	4950 5900 5250 5900
+	4950 5900 5600 5900
 Wire Wire Line
 	4950 6000 5250 6000
 Wire Wire Line
@@ -1268,7 +1268,7 @@ Wire Wire Line
 	6900 1150 6900 1050
 Connection ~ 6900 1150
 Wire Wire Line
-	9600 3700 9200 3700
+	10500 3700 10100 3700
 Wire Wire Line
 	9000 4300 8600 4300
 Wire Wire Line
@@ -1281,50 +1281,6 @@ Wire Wire Line
 	9000 3900 8600 3900
 Wire Wire Line
 	9000 3800 8600 3800
-Wire Wire Line
-	9600 3800 9200 3800
-Wire Wire Line
-	9600 3900 9200 3900
-Wire Wire Line
-	9600 4000 9200 4000
-Wire Wire Line
-	9600 4100 9200 4100
-Wire Wire Line
-	9600 4200 9200 4200
-Wire Wire Line
-	9600 4300 9200 4300
-Wire Wire Line
-	9600 4400 9200 4400
-Wire Wire Line
-	9600 4500 9200 4500
-Wire Wire Line
-	9600 4600 9200 4600
-Wire Wire Line
-	9600 4700 9200 4700
-Wire Wire Line
-	9600 4800 9200 4800
-Wire Wire Line
-	9600 4900 9200 4900
-Wire Wire Line
-	9600 5000 9200 5000
-Wire Wire Line
-	9600 5100 9200 5100
-Wire Wire Line
-	9600 5800 9200 5800
-Wire Wire Line
-	10500 3700 10100 3700
-Wire Wire Line
-	8100 4300 7700 4300
-Wire Wire Line
-	8100 4200 7700 4200
-Wire Wire Line
-	8100 4100 7700 4100
-Wire Wire Line
-	8100 4000 7700 4000
-Wire Wire Line
-	8100 3900 7700 3900
-Wire Wire Line
-	8100 3800 7700 3800
 Wire Wire Line
 	10500 3800 10100 3800
 Wire Wire Line
@@ -1341,6 +1297,50 @@ Wire Wire Line
 	10500 4400 10100 4400
 Wire Wire Line
 	10500 4500 10100 4500
+Wire Wire Line
+	9600 4600 9200 4600
+Wire Wire Line
+	9600 4700 9200 4700
+Wire Wire Line
+	9600 4800 9200 4800
+Wire Wire Line
+	9600 4900 9200 4900
+Wire Wire Line
+	9600 5000 9200 5000
+Wire Wire Line
+	9600 5100 9200 5100
+Wire Wire Line
+	9600 5800 9200 5800
+Wire Wire Line
+	9600 3700 9200 3700
+Wire Wire Line
+	8100 4300 7700 4300
+Wire Wire Line
+	8100 4200 7700 4200
+Wire Wire Line
+	8100 4100 7700 4100
+Wire Wire Line
+	8100 4000 7700 4000
+Wire Wire Line
+	8100 3900 7700 3900
+Wire Wire Line
+	8100 3800 7700 3800
+Wire Wire Line
+	9600 3800 9200 3800
+Wire Wire Line
+	9600 3900 9200 3900
+Wire Wire Line
+	9600 4000 9200 4000
+Wire Wire Line
+	9600 4100 9200 4100
+Wire Wire Line
+	9600 4200 9200 4200
+Wire Wire Line
+	9600 4300 9200 4300
+Wire Wire Line
+	9600 4400 9200 4400
+Wire Wire Line
+	9600 4500 9200 4500
 Wire Wire Line
 	10500 4600 10100 4600
 Wire Wire Line
@@ -1364,50 +1364,6 @@ Wire Wire Line
 Wire Wire Line
 	8100 4600 7700 4600
 Wire Wire Line
-	8100 4700 7700 4700
-Wire Wire Line
-	8100 4800 7700 4800
-Wire Wire Line
-	8100 4900 7700 4900
-Wire Wire Line
-	8100 5000 7700 5000
-Wire Wire Line
-	8100 5100 7700 5100
-Wire Wire Line
-	8100 5200 7700 5200
-Wire Wire Line
-	8100 5300 7700 5300
-Wire Wire Line
-	8100 5400 7700 5400
-Wire Wire Line
-	8100 5500 7700 5500
-Wire Wire Line
-	8100 5600 7700 5600
-Wire Wire Line
-	8100 5700 7700 5700
-Wire Wire Line
-	10500 5700 10100 5700
-Wire Wire Line
-	10500 5600 10100 5600
-Wire Wire Line
-	10500 5500 10100 5500
-Wire Wire Line
-	10500 5400 10100 5400
-Wire Wire Line
-	10500 5300 10100 5300
-Wire Wire Line
-	10500 5200 10100 5200
-Wire Wire Line
-	8100 5800 7700 5800
-Wire Wire Line
-	9000 3700 8600 3700
-Wire Wire Line
-	9000 4400 8600 4400
-Wire Wire Line
-	9000 4500 8600 4500
-Wire Wire Line
-	9000 4600 8600 4600
-Wire Wire Line
 	9000 4700 8600 4700
 Wire Wire Line
 	9000 4800 8600 4800
@@ -1430,6 +1386,50 @@ Wire Wire Line
 Wire Wire Line
 	9000 5700 8600 5700
 Wire Wire Line
+	10500 5700 10100 5700
+Wire Wire Line
+	10500 5600 10100 5600
+Wire Wire Line
+	10500 5500 10100 5500
+Wire Wire Line
+	10500 5400 10100 5400
+Wire Wire Line
+	10500 5300 10100 5300
+Wire Wire Line
+	10500 5200 10100 5200
+Wire Wire Line
+	9000 5800 8600 5800
+Wire Wire Line
+	9000 3700 8600 3700
+Wire Wire Line
+	9000 4400 8600 4400
+Wire Wire Line
+	9000 4500 8600 4500
+Wire Wire Line
+	9000 4600 8600 4600
+Wire Wire Line
+	8100 4700 7700 4700
+Wire Wire Line
+	8100 4800 7700 4800
+Wire Wire Line
+	8100 4900 7700 4900
+Wire Wire Line
+	8100 5000 7700 5000
+Wire Wire Line
+	8100 5100 7700 5100
+Wire Wire Line
+	8100 5200 7700 5200
+Wire Wire Line
+	8100 5300 7700 5300
+Wire Wire Line
+	8100 5400 7700 5400
+Wire Wire Line
+	8100 5500 7700 5500
+Wire Wire Line
+	8100 5600 7700 5600
+Wire Wire Line
+	8100 5700 7700 5700
+Wire Wire Line
 	9600 5700 9200 5700
 Wire Wire Line
 	9600 5600 9200 5600
@@ -1442,7 +1442,7 @@ Wire Wire Line
 Wire Wire Line
 	9600 5200 9200 5200
 Wire Wire Line
-	9000 5800 8600 5800
+	8100 5800 7700 5800
 Wire Wire Line
 	9500 850  9500 800 
 Wire Wire Line
@@ -1546,17 +1546,6 @@ Wire Wire Line
 Wire Wire Line
 	3000 850  3000 900 
 Connection ~ 2750 850 
-$Comp
-L AB2_POWER_BARREL CON1
-U 1 1 552ED618
-P 6650 1250
-F 0 "CON1" H 6650 1050 60  0000 C CNN
-F 1 "AB2_POWER_BARREL" H 6400 1400 60  0000 C CNN
-F 2 "AB2_power:AB2_PB_2MM_JACK_PTH" H 6800 1300 60  0001 C CNN
-F 3 "" H 6800 1300 60  0000 C CNN
-	1    6650 1250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6800 1200 6800 1150
 $Comp
@@ -1565,7 +1554,7 @@ U 1 1 552FF28F
 P 6200 2550
 F 0 "P3" H 6200 2700 50  0000 C CNN
 F 1 "CONN_01X02" V 6300 2550 50  0000 C CNN
-F 2 "" H 6200 2550 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 6200 2550 60  0001 C CNN
 F 3 "" H 6200 2550 60  0000 C CNN
 	1    6200 2550
 	1    0    0    -1  
@@ -1576,9 +1565,33 @@ U 1 1 552FF35E
 P 900 2150
 F 0 "P1" H 900 2300 50  0000 C CNN
 F 1 "CONN_01X02" V 1000 2150 50  0000 C CNN
-F 2 "" H 900 2150 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 900 2150 60  0001 C CNN
 F 3 "" H 900 2150 60  0000 C CNN
 	1    900  2150
 	-1   0    0    -1  
 $EndComp
+$Comp
+L AB2_POWER_BARREL CON1
+U 1 1 552FFC50
+P 6650 1250
+F 0 "CON1" H 6650 1050 60  0000 C CNN
+F 1 "AB2_POWER_BARREL" H 6650 1400 60  0000 C CNN
+F 2 "AB2_power:AB2_PB_2MM_JACK_PTH" H 6800 1300 60  0001 C CNN
+F 3 "" H 6800 1300 60  0000 C CNN
+	1    6650 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR028
+U 1 1 5530936B
+P 6250 5150
+F 0 "#PWR028" H 6250 5000 60  0001 C CNN
+F 1 "+3V3" H 6250 5290 60  0000 C CNN
+F 2 "" H 6250 5150 60  0000 C CNN
+F 3 "" H 6250 5150 60  0000 C CNN
+	1    6250 5150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6250 5000 6250 5150
 $EndSCHEMATC

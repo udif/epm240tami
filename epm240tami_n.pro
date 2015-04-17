@@ -1,11 +1,31 @@
-update=4/9/2015 12:40:08 AM
+update=4/17/2015 6:20:29 PM
 version=1
 last_client=kicad
 [general]
 version=1
+[pcbnew]
+version=1
+PageLayoutDescrFile=
+LastNetListRead=
+UseCmpFile=1
+PadDrill=0.6
+PadDrillOvalY=0.6
+PadSizeH=1.5
+PadSizeV=1.5
+PcbTextSizeV=1.5
+PcbTextSizeH=1.5
+PcbTextThickness=0.3
+ModuleTextSizeV=1
+ModuleTextSizeH=1
+ModuleTextSizeThickness=0.15
+SolderMaskClearance=0
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.2
+BoardOutlineThickness=0.09999999999999999
+ModuleOutlineThickness=0.15
 [eeschema]
 version=1
-LibDir=C:/Users/Udi Finkelstein/Ubuntu One/KiCad/lib;E:/Downloads
+LibDir=C:/Users/Udi Finkelstein/Ubuntu One/KiCad/lib;E:/Downloads;C:/Users/Udi Finkelstein/Ubuntu One/KiCad/ab2tech_lib/KiCad/library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -40,36 +60,17 @@ LibName30=valves
 LibName31=altera
 LibName32=res
 LibName33=oscillator-cmos-out-4
+LibName34=C:/Users/Udi Finkelstein/Ubuntu One/KiCad/ab2tech_lib/KiCad/library/ab2_power
 [cvpcb]
 version=1
 NetIExt=net
-[pcbnew]
-version=1
-PageLayoutDescrFile=
-LastNetListRead=
-UseCmpFile=1
-PadDrill=0.6
-PadDrillOvalY=0.6
-PadSizeH=1.5
-PadSizeV=1.5
-PcbTextSizeV=1.5
-PcbTextSizeH=1.5
-PcbTextThickness=0.3
-ModuleTextSizeV=1
-ModuleTextSizeH=1
-ModuleTextSizeThickness=0.15
-SolderMaskClearance=0
-SolderMaskMinWidth=0
-DrawSegmentWidth=0.2
-BoardOutlineThickness=0.09999999999999999
-ModuleOutlineThickness=0.15
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 RptD_X=0
